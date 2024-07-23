@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <title>Belajar HTML - Form</title>
+</head>
+<body>
+    <h1>Belajar HTML - Form</h1>
+    <h3>Ini adalah website form latihan pertama</h3>
+    <form>
+        <table>
+            <tr>
+                <td><label for="nama">Nama</label></td>
+                <td><input type="text" id="nama" name="nama"></td>
+            </tr>
+            <tr>
+                <td><label for="TanggalLahir">Tanggal Lahir</label></td>
+                <td><input type="date" id="TanggalLahir" name="TanggalLahir"></td>
+            </tr>
+            <tr>
+                <td><label for="jk">Jenis Kelamin</label></td>
+                <td>
+                    <input type="radio" id="laki-laki" name="jk" value="laki-laki">
+                    <label for="laki-laki">Laki-laki</label>
+                    <input type="radio" id="perempuan" name="jk" value="perempuan">
+                    <label for="perempuan">Perempuan</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="pesan">Pesan</label></td>
+                <td><textarea id="pesan" name="pesan"></textarea></td>
+            </tr>
+        </table>
+        <input type="submit">
+    </form>
+</body>
+</html>
